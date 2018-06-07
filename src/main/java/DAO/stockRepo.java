@@ -3,7 +3,11 @@ package DAO;
 import Entities.stockNode;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 
-public interface stockRepo extends Neo4jRepository {
+public interface stockRepo extends Neo4jRepository<stockNode, Long> {
 
-    stockNod
+    stockNode findById(long id);
+
+    stockNode f
+
+
 }
