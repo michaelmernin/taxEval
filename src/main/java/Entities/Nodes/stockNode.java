@@ -1,4 +1,4 @@
-package Entities;
+package Entities.Nodes;
 
 import org.neo4j.ogm.annotation.GeneratedValue;
 import org.neo4j.ogm.annotation.Id;
@@ -22,12 +22,12 @@ public class stockNode {
     double dayLow;
 
     @Relationship(type="Purchased_By", direction = Relationship.INCOMING)
+
     Set<traderNode> owners;
 
     @Relationship(type="Sold_By", direction = Relationship.INCOMING)
     Set<traderNode> sellers;
 
-    @Relationship(type = "RATED")
-    List<Rating> ratings;
+
 
 }
