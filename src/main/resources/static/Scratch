@@ -1,0 +1,14 @@
+String keyDayOfWeek = stock.getDateTime().format(DateTimeFormatter.ofPattern("D u E"));
+//                String dayOfWeek = stock.getDateTime().format(DateTimeFormatter.ofPattern("E"));
+//                String year = stock.getDateTime().format(DateTimeFormatter.ofPattern("u"));
+//                String hour = stock.getDateTime().format(DateTimeFormatter.ofPattern("H"));
+//                //String year = stock.getDateTime().format(DateTimeFormatter.ofPattern("E"));
+//                double openValue = Double.parseDouble(String.format("%.2f", stock.getOpen()));
+//                //String open = String.valueOf(x)String.format("%.2f", x);
+//                double closeValue = Double.parseDouble(String.format("%.2f", stock.getClose()));
+//                //String closeValue = String.format("%.2f", y);
+//                double profit = openValue - closeValue;
+//
+//                openValues.put(dayOfWeek, openValue);
+//                closeValues.put(dayOfWeek, closeValue);
+//                differenceValues_DAY.put(keyDayOfWeek, profit);
