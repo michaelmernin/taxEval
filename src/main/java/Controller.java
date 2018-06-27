@@ -18,15 +18,14 @@ import java.util.Map;
 @RestController
 public class Controller {
 
-    @PostMapping("/companyUpload")
-    public @ResponseBody ResponseEntity<String> post() {
+//    @PostMapping("/companyUpload")
+//    public @ResponseBody ResponseEntity<String> post() {
+//
+//
+//    }
 
 
 
 
-
-    }
-
-    @GetMapping("/")
 
 }

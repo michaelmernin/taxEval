@@ -12,30 +12,30 @@ import java.util.List;
 @javax.persistence.Table(name = "dailyStockInfo")
 public class dailyStockInfo {
 
-    @Id
-    @GeneratedValue
-    int id;
-
-    @Column
-    String name;
-
-    @Column
-    List<LocalDateTime> date;
-
-    @Column
-    List<Double> closingValues;
-
-    @Column
-    List<Double> openingValues;
-
-    @Column
-    List<Double> closingValues;
-
-    @Column
-    List<Double> closingValues;
-
-    @Column
-    List<Double> closingValues;
+//    @Id
+//    @GeneratedValue
+//    int id;
+//
+//    @Column
+//    String name;
+//
+//    @Column
+//    List<LocalDateTime> date;
+//
+//    @Column
+//    List<Double> closingValues;
+//
+//    @Column
+//    List<Double> openingValues;
+//
+//    @Column
+//    List<Double> closingValues;
+//
+//    @Column
+//    List<Double> closingValues;
+//
+//    @Column
+//    List<Double> closingValues;
 
 //
 

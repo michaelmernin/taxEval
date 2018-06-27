@@ -5,13 +5,13 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "closingValues")
-public class ClosingValues {
+public class ClosingValues_H2 {
 
     @Id
     @GeneratedValue
     int id;
 
-    Company company;
+    Company_H2 companyH2;
 
     @Column
     String date;
@@ -19,11 +19,11 @@ public class ClosingValues {
     @Column
     Double closedAt;
 
-    public ClosingValues() {
+    public ClosingValues_H2() {
     }
 
-    public ClosingValues(Company company, String date, Double closedAt) {
-        this.company = company;
+    public ClosingValues_H2(Company_H2 companyH2, String date, Double closedAt) {
+        this.companyH2 = companyH2;
         this.date = date;
         this.closedAt = closedAt;
     }

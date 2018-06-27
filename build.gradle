@@ -33,8 +33,9 @@ repositories {
 
 
 dependencies {
-    compile 'org.springframework.data:spring-data-cassandra:2.0.8.RELEASE'
+    //compile 'org.springframework.data:spring-data-cassandra:2.0.8.RELEASE'
     compile 'org.patriques:alphavantage4j:1.1'
+    compile("com.h2database:h2")
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-data-neo4j')
     compile('org.springframework.boot:spring-boot-starter-data-rest')
@@ -43,4 +44,5 @@ dependencies {
     runtime('org.springframework.boot:spring-boot-devtools')
     runtime('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
 }
